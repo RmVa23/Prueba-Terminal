@@ -1,0 +1,110 @@
+1  mkdir tutorial-terminal
+    2  cd tutorial-terminal
+    3  touch archivo-python.py
+    4  nano archivo-python.py
+    5  mkdir scripts
+    6  mv archivo-python.py scripts
+    7  rmdir scripts
+    8  cd scripts
+    9  mv archivo-python.py ..
+   10  mv archivo-python.py tutorial-terminal
+   11  cd ..
+   12  rm -r scripts
+   13  cd Prueba-Terminal
+   14  cd
+   15  mkdir scripts
+   16  cd ..
+   17  cd prueba-terminal
+   18  cd tutorial-terminal
+   19  cd /workspaces/Prueba-Terminal/tutorial-terminal
+   20  cd /workspaces/Prueba-Terminal
+   21  mkdir scripts
+   22  mv archivo-python.py scripts
+   23  cd tutorial-terminal
+   24  mv archivo-python.py scripts
+   25  cd ..
+   26  cd tutorial-terminal
+   27  mv scripts/archivo-python.py archivo-python.py
+   28  cd scripts
+   29  mv scripts/archivo-python.py archivo-python.py
+   30  mv tutorial-terminal/scripts archivo-python.py
+   31  mkdir scripts1
+   32  touch archivo.txt
+   33  mv archivo.txt scripts1
+   34  cd scripts1
+   35  cd ..
+   36  rm -r scripts1
+   37  touch archivo-python.py
+   38  cd
+   39  cd /workspaces/Prueba-Terminal
+   40  mv tutorial-terminal/archivo-python.py scripts
+   41  mkdir bash
+   42  cd bash
+   43  touch ejecuta-python.sh
+   44  nano ejecuta-python.sh
+   45  chmod +x ejecuta-python.sh
+   46  ./ejecuta-python.sh
+   47  nano archivo-python.py
+   48  cd scripts
+   49  d /workspaces/Prueba-Terminal
+   50  cd
+   51  cd /workspaces/Prueba-Terminal
+   52  cd scripts
+   53  nano archivo-python.py
+   54  cd
+   55  cd /workspaces/Prueba-Terminal
+   56  cd bash
+   57  ./ejecuta-python.sh
+   58  cd ..
+   59  cd scripts
+   60  cp archivo-python.py programa-raiz-cuadrada.py
+   61  nano programa-raiz-cuadrada.py
+   62  cd ..
+   63  mkdir res
+   64  cd scripts
+   65  nano programa-raiz-cuadrada.py
+   66  chmod +x programa-raiz-cuadrada.py
+   67  ./programa-raiz-cuadrada.py
+   68  nano programa-raiz-cuadrada.py
+   69  ./programa-raiz-cuadrada.py
+   70  nano programa-raiz-cuadrada.py
+   71  ./programa-raiz-cuadrada.py
+   72  nano programa-raiz-cuadrdada.py
+   73  nano programa-raiz-cuadrada.py
+   74  ./programa-raiz-cuadrada.py
+   75  python3 programa-raiz-cuadrada.py
+   76  cd ..
+   77  python3 programa-raiz-cuadrada.py
+   78  cd scripts
+   79  mkdir res
+   80  nano programa-raiz-cuadrada.py
+   81  /programa-raiz-cuadrada.py
+   82  ls
+   83  ./programa-raiz-cuadrada.py
+   84  nano programa-raiz-cuadrada.py
+   85  ./programa-raiz-cuadrada.py
+   86  nano programa-raiz-cuadrada.py
+   87  ./programa-raiz-cuadrada.py
+   88  cd res
+   89  touch test.txt
+   90  cd ..
+   91  ./programa-raiz-cuadrada.py
+   92  python3 programa-raiz-cuadrada.py
+   93  nano programa-raiz-cuadrada.py
+   94  python3 programa-raiz-cuadrada.py
+   95  rm archivo-python.py
+   96  ls
+   97  cd ..
+   98  cat res/test.txt
+   99  cd scripts
+  100  cat res/test.txt
+  101  cd ..
+  102  mkdir Data
+  103  cd Data
+  104  wget https://getsamplefiles.com/download/tar/sample-1.tar
+  105  tar -xvf sample-1.tar
+  106  find -name "*.jpg"
+  107  pwd
+  108  cd ..
+  109  pwd
+  110  history
